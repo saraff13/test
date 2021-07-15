@@ -7,11 +7,6 @@ const INITIAL_STATE = {
   type: TOAST_TYPE.NORMAL,
 };
 
-// function Sumit(name = 'Sumit') {
-//   console.log(name);
-// }
-// Sumit('Ankit');
-
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case types.SHOW_TOAST:
